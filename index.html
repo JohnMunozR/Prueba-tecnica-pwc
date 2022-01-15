@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="background">
+    <header class="header">
+<!-- Inicio Barra de navegacion -->
+        <nav class="navbar">
+            <div class="login-register">
+                <b href="#" class="user-item"><span class="icon-user-circle-o"> </span>Sing in</b>
+                <b href="#" class="user-item">Register</b>
+                <b href="#" class="user-item"><span class="icon-map-marker"> </span>Colombia</b>
+            </div>
+            <div class="sub-menu">
+                <img class="nav-logo" src="img/Logo-pwc.png" alt="">
+                <b class="nav-search"><span class="icon-search"> </span>Search</b>
+            </div>
+        </nav>
+    </header>
+<!-- Inicio Login -->
+    <div class="login-box">
+        
+        <form method="post" id="sesion-usuario">
+            <input id="txtUsuario" type="text" placeholder="Usuario" required="true">
+            <input id="txtPassword" type="password" placeholder="Contraseña" required="true">
+            <h6>usuario user</h6>
+            <h6>contraseña 1234</h6>
+            <button type="button" id="btn-SInicio" >Inicia Sesión</button>
+        </form>
+        
+    </div>
+<!-- Inicio Footer -->
+    <footer class="footer">
+        <a class="pa" href="">Acerca de Nosotros</a>
+        <a class="pa" href="">Nuestros servicios</a>
+        <hr>
+        <img class="footer-logo"src="img/logo-negro.png" alt="">
+        <section class="footer-info">
+            <p class="p">© 2020 - 2022 PwC. PricewaterhouseCoopers. PwC se refiere a las Firmas colombianas que hacen parte de la red global de PricewaterhouseCoopers International Limited, cada una de las cuales es una entidad legal separada e independiente. Todos los derechos reservados.</p>
+            <div class="info-container">
+            <a class="a" href="#">Política de privacidad</a>
+            <a class="a" href="#">Términos legales</a>
+            <br>
+            <a class="a" href="#">Acerca del proveedor de este sitio</a>
+            <br>
+            <a class="a" href="#">Política de tratamiento de datos personales</a>
+            </div>
+        </section>
+    </footer>
+    <script src="js/validacionUsuario.js"></script>
+    <script src="js/solicitud.js"></script>
+</body>
+</html>
